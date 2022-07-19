@@ -11,6 +11,10 @@
 		3B8C80D428861CA5003DE811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80D328861CA5003DE811 /* ContentView.swift */; };
 		3B8C80D628861CA6003DE811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C80D528861CA6003DE811 /* Assets.xcassets */; };
 		3B8C80D928861CA6003DE811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C80D828861CA6003DE811 /* Preview Assets.xcassets */; };
+		3B8C80E028861FF1003DE811 /* ImageDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80DF28861FF1003DE811 /* ImageDetectionViewModel.swift */; };
+		3B8C80E2288620F6003DE811 /* ImageDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80E1288620F6003DE811 /* ImageDetectionManager.swift */; };
+		3B8C80E428862242003DE811 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80E328862242003DE811 /* Resnet50.mlmodel */; };
+		3B8C80E6288622B5003DE811 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C80E5288622B5003DE811 /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3B8C80D328861CA5003DE811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B8C80D528861CA6003DE811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8C80D828861CA6003DE811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B8C80DF28861FF1003DE811 /* ImageDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionViewModel.swift; sourceTree = "<group>"; };
+		3B8C80E1288620F6003DE811 /* ImageDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionManager.swift; sourceTree = "<group>"; };
+		3B8C80E328862242003DE811 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		3B8C80E5288622B5003DE811 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				3B8C80D328861CA5003DE811 /* ContentView.swift */,
 				3B8C80D528861CA6003DE811 /* Assets.xcassets */,
 				3B8C80D728861CA6003DE811 /* Preview Content */,
+				3B8C80DF28861FF1003DE811 /* ImageDetectionViewModel.swift */,
+				3B8C80E1288620F6003DE811 /* ImageDetectionManager.swift */,
+				3B8C80E328862242003DE811 /* Resnet50.mlmodel */,
+				3B8C80E5288622B5003DE811 /* UIImage+Extensions.swift */,
 			);
 			path = "CoreML-SwiftUI-Integration";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8C80E428862242003DE811 /* Resnet50.mlmodel in Sources */,
 				3B8C80D428861CA5003DE811 /* ContentView.swift in Sources */,
 				3B8C80D228861CA5003DE811 /* CoreML_SwiftUI_IntegrationApp.swift in Sources */,
+				3B8C80E6288622B5003DE811 /* UIImage+Extensions.swift in Sources */,
+				3B8C80E028861FF1003DE811 /* ImageDetectionViewModel.swift in Sources */,
+				3B8C80E2288620F6003DE811 /* ImageDetectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
